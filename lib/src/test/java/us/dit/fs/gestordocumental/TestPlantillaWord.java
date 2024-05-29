@@ -48,8 +48,11 @@ class TestPlantillaWord {
 	        assertEquals("Capítulo primero", paragraphs.get(0).getText());	        
 	        assertEquals(wordDocument.convertTextFileToString("subtitulo.txt"), paragraphs.get(1).getText());
 	        assertEquals(wordDocument.convertTextFileToString("parrafo.txt"), paragraphs.get(2).getText());
+	        assertEquals("00CC44", paragraphs.get(2).getRuns().get(0).getColor());
 	       
 	    }
+	 
+
 	}
 
 

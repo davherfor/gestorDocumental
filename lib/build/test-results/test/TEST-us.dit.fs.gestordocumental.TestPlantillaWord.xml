@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="us.dit.fs.gestordocumental.TestPlantillaWord" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-29T10:17:45" hostname="LAPTOP-GOBB8N40" time="0.385">
+  <properties/>
+  <testcase name="whenParsingOutputDocument_thenCorrect()" classname="us.dit.fs.gestordocumental.TestPlantillaWord" time="0.385">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;00CC44&gt; but was: &lt;0000FF&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;00CC44&gt; but was: &lt;0000FF&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//us.dit.fs.gestordocumental.TestPlantillaWord.whenParsingOutputDocument_thenCorrect(TestPlantillaWord.java:51)
+	at java.base@17.0.9/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base@17.0.9/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.9/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
